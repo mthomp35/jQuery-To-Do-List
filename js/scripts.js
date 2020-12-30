@@ -1,4 +1,4 @@
-// functionality to add/update: enable tab key, add li on "enter" key, error in form vs window popup
+// functionality to add/update: enable tab key, add li on "enter" key, error in form vs window popup, make compatible with phones/touch, expandable input field
 
 function newItem() {
 
