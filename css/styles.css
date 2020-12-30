@@ -1,3 +1,6 @@
+/*
+Colors: #ffd200; #07afce; #025f70; #da8587; #f5f5f5; #dfdfdf; #364f6b;
+*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 
@@ -6,6 +9,7 @@ body {
   background: #364f6b;
 }
 
+/* To Do List Inputs */
 .container {
   padding: 20px;
   width: 350px;
@@ -13,7 +17,7 @@ body {
   margin-top: 40px;
   background: #dfdfdf;
   border-radius: 5px;
-  border-top: 2px solid #07afce;
+  border-top: 4px solid #ffd200;
   text-align: center;
 }
 
@@ -27,20 +31,20 @@ form {
 }
 
 input {
-max-width: 100%;
   padding: 4px 15px 4px 5px;
   border-radius: 5px;
-  border: 2px solid #da8587;
-  background-color: rgba(255, 208, 209, 0.1);
+  border: 2px solid #025f70;
+  background-color: #f5f5f5;
 }
 
-input:focus {
-  border-color: #364f6b;
+#input:focus {
+  border: none;
+  outline: 2px solid #07afce;
 }
 
 #button {
   display: inline-block;
-  background-color: #da8587;
+  background-color: #025f70;
   color: #ffffff;
   border-radius: 5px;
   text-align: center;
@@ -50,9 +54,10 @@ input:focus {
 
 #button:hover {
   cursor: pointer;
-  opacity: .8;
+  opacity: .7;
 }
 
+/* Created To Dos */
 ol {
   padding-left: 20px;
 }
