@@ -8,3 +8,8 @@ if (inputValue === '') {
  } else {
    $('#list').append(li);
  }
+
+ // Crossing out an item from the list of items
+ li.on('dblclick', function() {
+   li.toggleClass('strike');
+  });
