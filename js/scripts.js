@@ -21,3 +21,6 @@ li.append(crossOutButton);
 crossOutButton.on('click', function() {
   li.addClass('delete');
 });
+
+// Reordering the items with drag:
+$('#list').sortable();
