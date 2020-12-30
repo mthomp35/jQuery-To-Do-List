@@ -1,3 +1,5 @@
+// functionality to add/update: enable tab key, add li on "enter" key, error in form vs window popup
+
 function newItem() {
 
   // Adding a new item to the list of items
