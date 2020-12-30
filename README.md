@@ -1,5 +1,5 @@
 # jQuery-To-Do-List
- Simple To Do List built with jQuery
+ Simple To Do List built with HTML, CSS, and jQuery
 
  Features include:
  1. The user can add a new item to a list of items.
