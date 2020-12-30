@@ -3,16 +3,23 @@
 
 body {
   font: normal normal 13px/16px "Open Sans", sans-serif;
-  background: #dfdfdf;
+  background: #364f6b;
 }
 
 .container {
   padding: 20px;
-  width: 300px;
+  width: 350px;
   margin: 0 auto;
   margin-top: 40px;
-  background: white;
+  background: #dfdfdf;
   border-radius: 5px;
+  border-top: 2px solid #07afce;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.8em;
 }
 
 form {
@@ -20,12 +27,20 @@ form {
 }
 
 input {
+max-width: 100%;
   padding: 4px 15px 4px 5px;
+  border-radius: 5px;
+  border: 2px solid #da8587;
+  background-color: rgba(255, 208, 209, 0.1);
+}
+
+input:focus {
+  border-color: #364f6b;
 }
 
 #button {
   display: inline-block;
-  background-color: #fc999b;
+  background-color: #da8587;
   color: #ffffff;
   border-radius: 5px;
   text-align: center;
@@ -45,10 +60,11 @@ ol {
 ol li {
   padding: 5px;
   color: #000;
+  text-align: left;
 }
 
 ol li:nth-child(even) {
-  background: #dfdfdf;
+  background: #bfbfbf;
 }
 
 .strike {
